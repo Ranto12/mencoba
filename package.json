@@ -4,7 +4,7 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "start": "remix-serve build",
+    "start": "@vercel/node",
     "typecheck": "tsc"
   },
   "dependencies": {
